@@ -1,20 +1,27 @@
-đối với lần đầu tiên chạy file có chatBot:
-vào https://aistudio.google.com/app/api-keys
-đăng nhập bằng tài khoản Google
-bấm “Create API key”, rồi copy key
-tạo file .env 
-copy vào file: GOOGLE_API_KEY="YOUR_API_KEY"
+# SightSeeingWebApp
 
-cd Dia\Chi\Thu\Muc
-sau đó copy dòng này vào để tải module cần thiết:
+A web-based travel platform for discovering destinations, planning routes, and connecting with other travelers.
+
+## Features
+
+* Destination search and filtering
+* Map and route planning
+* AI-powered travel chatbot
+* Weather information
+* Favorites and image search
+* Forum, messaging, and location sharing
+
+## Setup
+
+```bash
+git clone https://github.com/jsapalebluedot/SightSeeingWebApp.git
+cd SightSeeingWebApp
 pip install -r requirements.txt
+python app.py
+```
 
-vào app.py vào chạy
-hoặc dùng
-python app.y
+The application runs at `http://localhost:5001/`.
 
-link để vào web:
-http://localhost:5001/
+## Note
 
-do đã thay database nên vào đường link sau để tải ảnh: https://drive.google.com/drive/folders/1UeO6AejNDUdvGBbMDMWhoKXyuvI4LkM3?usp=drive_link
-giải nén và cho thư mục images vào trong thư mục images ở trong phần static (/static/images/)
+This project was developed collaboratively for academic purposes. Original contributors retain credit for their respective work.
